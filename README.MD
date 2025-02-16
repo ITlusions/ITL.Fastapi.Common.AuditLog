@@ -3,11 +3,11 @@
 Deze README beschrijft hoe je de audit logging functionaliteit in een FastAPI-applicatie kunt gebruiken.
 
 ## 📌 Functies
-- ✅ Middleware voor audit logging 
-- ✅ Automatische **Request-ID** en **Correlation-ID**
-- ✅ Server hostname en applicatieversie in response headers
-- ✅ Aanpasbare auditlog evenementen
-- ✅ Eenvoudig te integreren in bestaande FastAPI-applicaties
+* ✅ Middleware voor audit logging 
+* ✅ Automatische **Request*ID** en **Correlation*ID**
+* ✅ Server hostname en applicatieversie in response headers
+* ✅ Aanpasbare auditlog evenementen
+* ✅ Eenvoudig te integreren in bestaande FastAPI-applicaties
 
 ---
 
@@ -69,11 +69,9 @@ INFO: Response: 200 | Request ID: d39b55f2-4c11-4a60-8e51-bb2e2c6e0d19 | Correla
 ---
 
 ## 🎯 Samenvatting
-✅ **Registreert alle aanvragen en reacties**
-✅ **Unieke request en correlation ID's**
-✅ **Applicatieversie en hostname toegevoegd aan response headers**
-✅ **Aanpasbare audit event logging**
-✅ **Eenvoudig te integreren**
-
-🚀 **Gebruik deze logging om je applicatie beter te monitoren en beveiligen!**
+* ✅ **Registreert alle aanvragen en reacties voor traceabilty**
+* ✅ **Unieke request en correlation ID's om requests aan elkaar tre kunnen correleren**
+* ✅ **Applicatieversie en hostname toegevoegd aan response headers voor monitoring/audit**
+* ✅ **Aanpasbare audit event logging d.m.v. een helper**
+* ✅ **Eenvoudig te integreren als module**
 
